@@ -8,7 +8,7 @@
 
 ## Overview
 
-This repository contains the landing page for the NEAR Protocol Rewards program, showcasing how we're transforming traditional one-time grants into sustainable, ongoing capital for developers in the NEAR ecosystem. The landing page provides information about our merit-based rewards system that automatically tracks and rewards development activity.
+This repository contains the landing page for the [NEAR Protocol Rewards program](https://github.com/jbarnes850/near-protocol-rewards), showcasing how we're transforming traditional one-time grants into sustainable, ongoing capital for developers in the NEAR ecosystem. The landing page provides information about our merit-based rewards system that automatically tracks and rewards development activity.
 
 ## Features
 
