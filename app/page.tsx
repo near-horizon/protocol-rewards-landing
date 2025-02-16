@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: 'Transform your NEAR development journey with automated, merit-based rewards. Track metrics, earn rewards, and grow sustainably.',
   openGraph: {
     title: 'NEAR Protocol Rewards - Start Earning Today',
-    description: 'Join the future of sustainable blockchain development funding. Get rewarded for your contributions to the NEAR ecosystem.',
+    description: 'Join the future of sustainable AI and web3 project funding. Get rewarded for your contributions to the NEAR ecosystem.',
   }
 }
 
