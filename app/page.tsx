@@ -8,6 +8,17 @@ import {
 import { AnimatedGridPattern } from "@/components/ui/animated-grid-pattern"
 import { FloatingStats } from "@/components/floating-stats"
 import { Footer } from "@/components/footer"
+import type { Metadata } from 'next'
+import JsonLd from '@/components/JsonLd'
+
+export const metadata: Metadata = {
+  title: 'NEAR Protocol Rewards | Merit-Based Developer Incentives',
+  description: 'Transform your NEAR development journey with automated, merit-based rewards. Track metrics, earn rewards, and grow sustainably.',
+  openGraph: {
+    title: 'NEAR Protocol Rewards - Start Earning Today',
+    description: 'Join the future of sustainable blockchain development funding. Get rewarded for your contributions to the NEAR ecosystem.',
+  }
+}
 
 export default function LandingPage() {
   return (
@@ -28,6 +39,7 @@ export default function LandingPage() {
       <FinalCTASection />
       <FloatingStats />
       <Footer />
+      <JsonLd />
     </div>
   )
 }
