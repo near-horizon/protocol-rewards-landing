@@ -17,7 +17,31 @@ const testimonials = [
     ],
     isVerified: true,
     timestamp: "9:38 AM · Feb 13, 2025",
-    views: "276 Views",
+  },
+  {
+    link: "https://x.com/jcarbonnell/status/1889707477886816498",
+    authorName: "Julien Carbonnell",
+    authorHandle: "jcarbonnell",
+    authorImage: "/placeholder-user.jpg",
+    content: [
+      "Excited to share that @partagexyz received support from the @NEARProtocol Rewards Program! 🚀",
+      "This initiative helps developers like me grow, and brings projects like 1000fans to life.",
+      "Don't miss your chance to join the next round:",
+    ],
+    isVerified: true,
+    timestamp: "3:45 PM · Feb 12, 2025",
+  },
+  {
+    link: "https://x.com/derek2403/status/1889959383360245977",
+    authorName: "Derekkkk",
+    authorHandle: "derek2403",
+    authorImage: "/placeholder-user.jpg",
+    content: [
+      "— Thread 🧵—",
+      "Here to share some really good stuff! Recently me and @ilovedahmo received support from the @NEARProtocol rewards program! This initiative helped us (as developers) grow and bring our project Nearer (an AI powered secure wallet that is not drainable) to life. 🔥🔥",
+    ],
+    isVerified: false,
+    timestamp: "8:15 AM · Feb 13, 2025",
   },
 ]
 
@@ -28,13 +52,13 @@ export function TestimonialsSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-white mb-4">Featured Projects</h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Hear from developers who are building the future of decentralized AI on NEAR.
+            Join successful developers who are building the future of decentralized AI on NEAR.
           </p>
         </div>
         <div className="flex flex-col items-center gap-8 max-w-[600px] mx-auto">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="w-full">
-              <XCard {...testimonial} reply={undefined} />
+              <XCard {...testimonial} />
             </div>
           ))}
         </div>

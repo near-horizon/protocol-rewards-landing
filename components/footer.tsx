@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Mail, Twitter } from "lucide-react"
 
 export function Footer() {
   return (
@@ -6,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-white/60 text-sm">© {new Date().getFullYear()} NEAR Foundation. All rights reserved.</div>
-          <nav className="flex space-x-6">
+          <nav className="flex items-center space-x-6">
             <Link
               href="https://drive.google.com/file/d/1o_QdfsQ-Zvo4yzTRW0ZaoMg87gwbO9OQ/view"
               className="text-white/60 hover:text-white transition-colors text-sm"
@@ -24,12 +25,20 @@ export function Footer() {
               Privacy Policy
             </Link>
             <Link
-              href="https://t.me/neardev"
-              className="text-white/60 hover:text-white transition-colors text-sm"
+              href="mailto:horizon@near.foundation"
+              className="text-white/60 hover:text-white transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Connect on Telegram
+              <Mail className="h-5 w-5" />
+            </Link>
+            <Link
+              href="https://x.com/nearhorizon"
+              className="text-white/60 hover:text-white transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter className="h-5 w-5" />
             </Link>
           </nav>
         </div>

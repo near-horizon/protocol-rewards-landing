@@ -98,11 +98,36 @@ export function FeaturedProjectsSection() {
       isVerified: true,
       timestamp: "9:38 AM · Feb 13, 2025",
     },
+    {
+      link: "https://x.com/jcarbonnell/status/1889707477886816498",
+      authorName: "Julien Carbonnell",
+      authorHandle: "jcarbonnell",
+      authorImage: "/profiles/julien-carbonnell.jpg",
+      content: [
+        "Excited to share that @partagexyz received support from the @NEARProtocol Rewards Program! 🚀",
+        "This initiative helps developers like me grow, and brings projects like 1000fans to life.",
+        "Don't miss your chance to join the next round:",
+      ],
+      isVerified: true,
+      timestamp: "3:45 PM · Feb 12, 2025",
+    },
+    {
+      link: "https://x.com/derek2403/status/1889959383360245977",
+      authorName: "Derekkkk",
+      authorHandle: "derek2403",
+      authorImage: "/profiles/derek-corgi.jpg",
+      content: [
+        "— Thread 🧵—",
+        "Here to share some really good stuff! Recently me and @ilovedahmo received support from the @NEARProtocol rewards program! This initiative helped us (as developers) grow and bring our project Nearer (an AI powered secure wallet that is not drainable) to life. 🔥🔥",
+      ],
+      isVerified: false,
+      timestamp: "8:15 AM · Feb 13, 2025",
+    },
   ]
 
   return (
     <section className="bg-black/50">
-      <div className="container px-4 py-24 md:py-32">
+      <div className="w-full py-24 md:py-32">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -117,10 +142,15 @@ export function FeaturedProjectsSection() {
             </p>
           </motion.div>
 
-          <motion.div variants={fadeInUp} className="flex flex-col items-center gap-8 max-w-[600px] mx-auto">
+          <motion.div 
+            variants={fadeInUp} 
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 w-full max-w-[2000px] mx-auto"
+          >
             {testimonials.map((testimonial, index) => (
-              <div key={index} className="w-full">
-                <XCard {...testimonial} />
+              <div key={index} className="w-full flex justify-center">
+                <div className="w-full max-w-[400px]">
+                  <XCard {...testimonial} />
+                </div>
               </div>
             ))}
           </motion.div>

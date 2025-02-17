@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Award, Users, GitBranch } from "lucide-react"
+import { Award, Users, GitBranch, Package } from "lucide-react"
 
 export function FloatingStats() {
   return (
@@ -32,6 +32,13 @@ export function FloatingStats() {
             <div>
               <div className="text-sm text-white/60">Contributions</div>
               <div className="text-white font-semibold">622</div>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <Package className="h-5 w-5 text-[#9797ff]" />
+            <div>
+              <div className="text-sm text-white/60">Weekly Downloads</div>
+              <div className="text-white font-semibold">1,000+</div>
             </div>
           </div>
         </div>
