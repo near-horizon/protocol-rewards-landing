@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/dashboard",
-        "destination": "https://near-protocol-rewards-dashboard.vercel.app/"
+        "destination": "https://near-protocol-rewards-dashboard.vercel.app/dashboard"
       }
     ]
   }
