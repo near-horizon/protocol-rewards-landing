@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/dashboard",
-        "destination": "https://near-protocol-rewards-dashboard.vercel.app/dashboard"
+        "source": "/dashboard/:path*",
+        "destination": "https://near-protocol-rewards-dashboard.vercel.app/dashboard/:path*"
       }
     ]
   }
