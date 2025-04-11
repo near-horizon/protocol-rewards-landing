@@ -27,7 +27,7 @@ export default function JsonLd() {
     keywords: 'NEAR Protocol, blockchain rewards, developer incentives, web3 funding, crypto grants',
     url: 'https://rewards.near.org',
     sameAs: [
-      'https://github.com/jbarnes850/near-protocol-rewards',
+      'https://github.com/near-horizon/near-protocol-rewards',
       'https://near.org',
       'https://twitter.com/NEARProtocol'
     ]
