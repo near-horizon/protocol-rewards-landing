@@ -154,7 +154,7 @@ export default function TerminalHero() {
                 size="lg"
                 className="bg-white hover:bg-white/90 text-black font-medium gap-2 h-12 px-6 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_-5px_rgba(255,255,255,0.5)] focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
               >
-                <Link href="https://near-protocol-rewards-dashboard.vercel.app">
+                <Link href="/dashboard">
                   <BarChart3 className="h-4 w-4" />
                   View Performance
                 </Link>
@@ -165,7 +165,7 @@ export default function TerminalHero() {
                 variant="outline"
                 className="border-[#9797ff] text-[#9797ff] hover:bg-[#9797ff]/10 font-medium gap-2 h-12 px-6 rounded-xl transition-all duration-300 hover:scale-105 focus:ring-2 focus:ring-[#9797ff] focus:ring-offset-2 focus:ring-offset-black"
               >
-                <Link href="https://github.com/jbarnes850/near-protocol-rewards">
+                <Link href="https://github.com/near-horizon/near-protocol-rewards">
                   <FileText className="h-4 w-4" />
                   Documentation
                 </Link>

@@ -8,7 +8,7 @@
 
 ## Overview
 
-This repository contains the landing page for the [NEAR Protocol Rewards program](https://github.com/jbarnes850/near-protocol-rewards), showcasing how we're transforming traditional one-time grants into sustainable, ongoing capital for developers in the NEAR ecosystem. The landing page provides information about our merit-based rewards system that automatically tracks and rewards development activity.
+This repository contains the landing page for the [NEAR Protocol Rewards program](https://github.com/near-horizon/near-protocol-rewards), showcasing how we're transforming traditional one-time grants into sustainable, ongoing capital for developers in the NEAR ecosystem. The landing page provides information about our merit-based rewards system that automatically tracks and rewards development activity.
 
 ## Features
 
@@ -88,9 +88,9 @@ protocol-rewards-landing/
 
 ## Related Resources
 
-- [NEAR Protocol Rewards Main Repository](https://github.com/jbarnes850/near-protocol-rewards)
-- [Documentation](https://github.com/jbarnes850/near-protocol-rewards/tree/main/docs)
-- [Rewards Dashboard](https://near-protocol-rewards-dashboard.near.org)
+- [NEAR Protocol Rewards Main Repository](https://github.com/near-horizon/near-protocol-rewards)
+- [Documentation](https://github.com/near-horizon/near-protocol-rewards/tree/main/docs)
+- [Rewards Dashboard](https://www.nearprotocolrewards.com/dashboard)
 
 ## License
 
