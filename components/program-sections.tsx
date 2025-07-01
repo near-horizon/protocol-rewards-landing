@@ -239,27 +239,27 @@ export function SelectionProcessSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-[#9797ff]/10 via-transparent to-transparent" />
                 <div className="relative space-y-8">
                   <div>
-                    <h3 className="text-2xl font-semibold text-white mb-4">March 2025 Cohort Focus</h3>
+                    <h3 className="text-2xl font-semibold text-white mb-4">Cohort Focus</h3>
                     <p className="text-gray-400">
-                      Building towards scaling 1 trillion autonomous agents on NEAR through:
+                      Empowering builders to unlock seamless chain abstraction and real-world impact on NEAR.
                     </p>
                   </div>
 
                   <div className="space-y-4">
                     {[
                       {
-                        title: "AI-powered DeFi Solutions",
-                        description: "Build secure, intelligent financial protocols",
+                        title: "Impact-Driven DeFi Solutions",
+                        description: "Secure, inclusive financial primitives delivering tangible value across the NEAR ecosystem.",
                         icon: Brain,
                       },
                       {
-                        title: "Autonomous Agent Frameworks",
-                        description: "Create tools for agent development & deployment",
+                        title: "Chain Abstraction Frameworks",
+                        description: "Toolkits that unify multichain access through a single, frictionless NEAR account.",
                         icon: Target,
                       },
                       {
-                        title: "AI/ML Infrastructure",
-                        description: "Develop core infrastructure for AI on NEAR",
+                        title: "Scalable Open Infrastructure",
+                        description: "Core modules designed to propel NEAR toward billions of transactions per day.",
                         icon: Users,
                       },
                     ].map((item, index) => (
@@ -289,7 +289,7 @@ export function SelectionProcessSection() {
                       className="w-full bg-[#9797ff] hover:bg-[#9797ff]/90 text-black font-medium gap-2 h-12 px-6 rounded-xl transition-transform hover:scale-105"
                     >
                       <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr3vrZ3sGWzSdXgX">
-                        Apply for March 2025 Cohort
+                        Apply for Next Cohort
                         <ArrowRight className="h-4 w-4" />
                       </Link>
                     </Button>
@@ -331,7 +331,7 @@ export function FinalCTASection() {
               className="bg-black hover:bg-black/90 text-white font-medium gap-2 h-12 px-8 rounded-xl transition-transform hover:scale-105"
             >
               <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr3vrZ3sGWzSdXgX">
-                Apply for March 2025 Cohort
+                Apply for Next Cohort
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
