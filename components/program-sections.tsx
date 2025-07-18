@@ -112,16 +112,15 @@ export function FeaturedProjectsSection() {
       timestamp: "3:45 PM · Feb 12, 2025",
     },
     {
-      link: "https://x.com/derek2403/status/1889959383360245977",
-      authorName: "Derekkkk",
-      authorHandle: "derek2403",
-      authorImage: "/profiles/derek-corgi.jpg",
+      link: "https://x.com/openwebeconomy/status/1922623248354750756",
+      authorName: "Charles",
+      authorHandle: "openwebeconomy",
+      authorImage: "https://wuszieebptt7hukv.public.blob.vercel-storage.com/openwebeconomy_profile.jpg",
       content: [
-        "— Thread 🧵—",
-        "Here to share some really good stuff! Recently me and @ilovedahmo received support from the @NEARProtocol rewards program! This initiative helped us (as developers) grow and bring our project Nearer (an AI powered secure wallet that is not drainable) to life. 🔥🔥",
+        "🧵 The founder's journey is an erratic yet invigorating rollercoaster, and infinitely better with a supportive community. Dive into our latest experience with the NEAR Protocol Rewards team. 👇 (1/8)",
       ],
-      isVerified: false,
-      timestamp: "8:15 AM · Feb 13, 2025",
+      isVerified: true,
+      timestamp: "9:01 AM · Mai 14, 2025",
     },
   ]
 
