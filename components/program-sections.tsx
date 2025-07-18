@@ -112,16 +112,15 @@ export function FeaturedProjectsSection() {
       timestamp: "3:45 PM · Feb 12, 2025",
     },
     {
-      link: "https://x.com/derek2403/status/1889959383360245977",
-      authorName: "Derekkkk",
-      authorHandle: "derek2403",
-      authorImage: "/profiles/derek-corgi.jpg",
+      link: "https://x.com/openwebeconomy/status/1922623248354750756",
+      authorName: "Charles",
+      authorHandle: "openwebeconomy",
+      authorImage: "https://wuszieebptt7hukv.public.blob.vercel-storage.com/openwebeconomy_profile.jpg",
       content: [
-        "— Thread 🧵—",
-        "Here to share some really good stuff! Recently me and @ilovedahmo received support from the @NEARProtocol rewards program! This initiative helped us (as developers) grow and bring our project Nearer (an AI powered secure wallet that is not drainable) to life. 🔥🔥",
+        "🧵 The founder's journey is an erratic yet invigorating rollercoaster, and infinitely better with a supportive community. Dive into our latest experience with the NEAR Protocol Rewards team. 👇 (1/8)",
       ],
-      isVerified: false,
-      timestamp: "8:15 AM · Feb 13, 2025",
+      isVerified: true,
+      timestamp: "9:01 AM · Mai 14, 2025",
     },
   ]
 
@@ -144,11 +143,11 @@ export function FeaturedProjectsSection() {
 
           <motion.div 
             variants={fadeInUp} 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 w-full max-w-[2000px] mx-auto"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 px-4 md:px-8 lg:px-12 w-full max-w-6xl mx-auto"
           >
             {testimonials.map((testimonial, index) => (
               <div key={index} className="w-full flex justify-center">
-                <div className="w-full max-w-[400px]">
+                <div className="w-full max-w-[320px]">
                   <XCard {...testimonial} />
                 </div>
               </div>
