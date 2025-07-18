@@ -143,11 +143,11 @@ export function FeaturedProjectsSection() {
 
           <motion.div 
             variants={fadeInUp} 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 w-full max-w-[2000px] mx-auto"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 px-4 md:px-8 lg:px-12 w-full max-w-6xl mx-auto"
           >
             {testimonials.map((testimonial, index) => (
               <div key={index} className="w-full flex justify-center">
-                <div className="w-full max-w-[400px]">
+                <div className="w-full max-w-[320px]">
                   <XCard {...testimonial} />
                 </div>
               </div>
