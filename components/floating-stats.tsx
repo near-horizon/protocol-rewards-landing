@@ -2,10 +2,36 @@
 
 import { motion } from "framer-motion"
 import { Award, Users, GitBranch, Package } from "lucide-react"
+import { useState, useEffect } from "react"
 
 export function FloatingStats() {
+  const [isNearFooter, setIsNearFooter] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.innerHeight + window.scrollY
+      const documentHeight = document.documentElement.scrollHeight
+      const footerOffset = 200 // Distância em pixels do footer onde começamos a ajustar
+
+      // Detecta se está próximo do final da página
+      const nearFooter = scrollPosition >= documentHeight - footerOffset
+      setIsNearFooter(nearFooter)
+    }
+
+    // Adiciona o event listener
+    window.addEventListener('scroll', handleScroll)
+    
+    // Executa uma vez no mount para verificar posição inicial
+    handleScroll()
+
+    // Remove o event listener na desmontagem
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <div className="fixed bottom-8 right-8 z-50">
+    <div className={`fixed right-8 z-50 transition-all duration-300 ${
+      isNearFooter ? 'bottom-32' : 'bottom-8'
+    }`}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
