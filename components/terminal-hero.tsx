@@ -144,7 +144,7 @@ export default function TerminalHero() {
                 size="lg"
                 className="bg-[#9797ff] hover:bg-[#9797ff]/90 text-black font-medium gap-2 h-12 px-6 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_-5px_rgba(151,151,255,0.5)] focus:ring-2 focus:ring-[#9797ff] focus:ring-offset-2 focus:ring-offset-black"
               >
-                <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr3vrZ3sGWzSdXgX">
+                <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr4u30KcGeNJwhKu">
                   Apply for Next Cohort
                   <ArrowRight className="h-4 w-4" />
                 </Link>
