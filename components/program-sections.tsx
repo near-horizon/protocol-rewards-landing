@@ -287,7 +287,7 @@ export function SelectionProcessSection() {
                       size="lg"
                       className="w-full bg-[#9797ff] hover:bg-[#9797ff]/90 text-black font-medium gap-2 h-12 px-6 rounded-xl transition-transform hover:scale-105"
                     >
-                      <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr3vrZ3sGWzSdXgX">
+                      <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr4u30KcGeNJwhKu">
                         Apply for Next Cohort
                         <ArrowRight className="h-4 w-4" />
                       </Link>
@@ -329,7 +329,7 @@ export function FinalCTASection() {
               size="lg"
               className="bg-black hover:bg-black/90 text-white font-medium gap-2 h-12 px-8 rounded-xl transition-transform hover:scale-105"
             >
-              <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr3vrZ3sGWzSdXgX">
+              <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr4u30KcGeNJwhKu">
                 Apply for Next Cohort
                 <ArrowRight className="h-4 w-4" />
               </Link>

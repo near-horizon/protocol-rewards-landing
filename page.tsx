@@ -230,7 +230,7 @@ export default function LandingPage() {
             Join the next cohort of innovative developers shaping the future of decentralized AI.
           </p>
           <Button asChild size="lg" className="bg-white text-purple-600 hover:bg-purple-50">
-            <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr3vrZ3sGWzSdXgX">
+            <Link href="https://airtable.com/appFoIqAoY0ikoVIb/shr4u30KcGeNJwhKu">
               Apply for the Next Cohort
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
