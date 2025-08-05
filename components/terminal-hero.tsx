@@ -121,9 +121,8 @@ export default function TerminalHero() {
                     <div className="text-[#9797ff]">→ Checking repository compatibility...</div>
                     <div className="text-[#9797ff]">→ Setting up metrics tracking... ✓</div>
                     <div className="mt-6">$ near-protocol-rewards stats</div>
-                    <div className="text-[#9797ff]">→ Program Duration: 12w</div>
+                    <div className="text-[#9797ff]">→ Program Duration: 8w</div>
                     <div className="text-[#9797ff]">→ Max Monthly Reward: $10,000</div>
-                    <div className="text-[#9797ff]">→ Weekly Commitment: 10-15h</div>
                     <div className="text-[#9797ff]">→ Open for Applications: true</div>
                     <div className="text-[#9797ff]">→ █</div>
                   </motion.div>
