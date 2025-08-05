@@ -184,21 +184,21 @@ export function SelectionProcessSection() {
               {[
                 {
                   title: "Project Potential",
-                  description: "Share your idea & development stage",
+                  description: "Uniqueness, development stage, impact potential, and team strength.",
                   icon: Rocket,
                   score: 60,
                   color: "#9797ff",
                 },
                 {
                   title: "Technical Skills",
-                  description: "Provide your GitHub profile and past work",
+                  description: "GitHub activity, code quality, tech stack expertise, and ability to ship.",
                   icon: Code,
                   score: 20,
                   color: "#7070ff",
                 },
                 {
                   title: "Community Engagement",
-                  description: "Show your involvement in the NEAR ecosystem",
+                  description: "Referrals, past contributions, and consistent participation matter.",
                   icon: GitBranch,
                   score: 20,
                   color: "#4747ff",
@@ -230,6 +230,20 @@ export function SelectionProcessSection() {
                   </div>
                 </motion.div>
               ))}
+              
+              <motion.div variants={fadeInUp} className="pt-6">
+                <Button
+                  asChild
+                  variant="outline"
+                  size="lg"
+                  className="bg-transparent border-[#9797ff] text-[#9797ff] hover:bg-[#9797ff] hover:text-black font-medium gap-2 h-12 px-6 rounded-xl transition-all hover:scale-105"
+                >
+                  <Link href="https://docs.google.com/document/d/17ebf1XHaiXAK13zO7JPZ2NrL2WVKZzZd1ZL321SxdFc/edit?tab=t.0#heading=h.kt0phqhxdds8" target="_blank" rel="noopener noreferrer">
+                    Full Criteria
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </Button>
+              </motion.div>
             </motion.div>
 
             <motion.div variants={fadeInUp} className="lg:pl-8">
@@ -239,7 +253,7 @@ export function SelectionProcessSection() {
                   <div>
                     <h3 className="text-2xl font-semibold text-white mb-4">Cohort Focus</h3>
                     <p className="text-gray-400">
-                      Building towards scaling 1 trillion autonomous agents on NEAR through:
+                      We support projects laying the groundwork for agentic protocols, distributed AI, and native coordination tools on NEAR.
                     </p>
                   </div>
 
