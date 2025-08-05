@@ -2,7 +2,7 @@
 
 ![NEAR Protocol Rewards Program](public/og-image.png)
 
-> The official landing page for NEAR Protocol Rewards - a transparent, metric-based rewards system that directly ties incentives to development activity in the NEAR ecosystem.
+> The official landing page for NEAR Protocol Rewards - a transparent, on-chain rewards program for NEAR builders. Where activity and impact earn you real incentives.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

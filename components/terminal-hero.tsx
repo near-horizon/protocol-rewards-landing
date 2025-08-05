@@ -71,11 +71,10 @@ export default function TerminalHero() {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-white">
-              Protocol Rewards Program
+              Build. Ship. Get Rewarded.
             </h1>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              A transparent, metric-based rewards system for NEAR projects that directly ties incentives to development
-              activity and user adoption.
+              A transparent, on-chain rewards program for NEAR builders. Where activity and impact earn you real incentives.
             </p>
           </motion.div>
           <motion.div

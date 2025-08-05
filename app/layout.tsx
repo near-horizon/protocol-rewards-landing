@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'NEAR Protocol Rewards | Merit-Based Developer Incentives',
     template: '%s | NEAR Protocol Rewards'
   },
-  description: 'A transparent, metric-based rewards system for NEAR projects that automatically tracks and rewards development activity. Transform one-time grants into sustainable funding.',
+  description: 'A transparent, on-chain rewards program for NEAR builders. Where activity and impact earn you real incentives. Transform one-time grants into sustainable funding.',
   keywords: [
     'NEAR Protocol',
     'blockchain rewards',
