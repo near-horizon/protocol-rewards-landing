@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Award, Users, GitBranch, Package } from "lucide-react"
+import { Award, Users, GitBranch } from "lucide-react"
 import { useState, useEffect } from "react"
 
 export function FloatingStats() {
@@ -43,28 +43,21 @@ export function FloatingStats() {
             <Award className="h-5 w-5 text-[#9797ff]" />
             <div>
               <div className="text-sm text-white/60">Total Rewards</div>
-              <div className="text-white font-semibold">$118,000+</div>
+              <div className="text-white font-semibold">$200,000+</div>
             </div>
           </div>
           <div className="flex items-center gap-3">
             <Users className="h-5 w-5 text-[#9797ff]" />
             <div>
               <div className="text-sm text-white/60">Active Projects</div>
-              <div className="text-white font-semibold">26</div>
+              <div className="text-white font-semibold">20</div>
             </div>
           </div>
           <div className="flex items-center gap-3">
             <GitBranch className="h-5 w-5 text-[#9797ff]" />
             <div>
-              <div className="text-sm text-white/60">Contributions</div>
-              <div className="text-white font-semibold">622</div>
-            </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <Package className="h-5 w-5 text-[#9797ff]" />
-            <div>
-              <div className="text-sm text-white/60">Weekly Downloads</div>
-              <div className="text-white font-semibold">1,000+</div>
+              <div className="text-sm text-white/60">Activities</div>
+              <div className="text-white font-semibold">3,4K+</div>
             </div>
           </div>
         </div>

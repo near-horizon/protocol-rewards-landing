@@ -13,7 +13,7 @@ export default function JsonLd() {
       price: '0',
       priceCurrency: 'USD'
     },
-    description: 'A transparent, metric-based rewards system for NEAR projects that automatically tracks and rewards development activity.',
+    description: 'A transparent, on-chain rewards program for NEAR builders. Where activity and impact earn you real incentives.',
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',

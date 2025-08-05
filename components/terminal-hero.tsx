@@ -71,11 +71,10 @@ export default function TerminalHero() {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-white">
-              Protocol Rewards Program
+              Build. Ship. Get Rewarded.
             </h1>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              A transparent, metric-based rewards system for NEAR projects that directly ties incentives to development
-              activity and user adoption.
+              A transparent, on-chain rewards program for NEAR builders. Where activity and impact earn you real incentives.
             </p>
           </motion.div>
           <motion.div
@@ -122,9 +121,8 @@ export default function TerminalHero() {
                     <div className="text-[#9797ff]">→ Checking repository compatibility...</div>
                     <div className="text-[#9797ff]">→ Setting up metrics tracking... ✓</div>
                     <div className="mt-6">$ near-protocol-rewards stats</div>
-                    <div className="text-[#9797ff]">→ Program Duration: 12w</div>
+                    <div className="text-[#9797ff]">→ Program Duration: 8w</div>
                     <div className="text-[#9797ff]">→ Max Monthly Reward: $10,000</div>
-                    <div className="text-[#9797ff]">→ Weekly Commitment: 10-15h</div>
                     <div className="text-[#9797ff]">→ Open for Applications: true</div>
                     <div className="text-[#9797ff]">→ █</div>
                   </motion.div>
