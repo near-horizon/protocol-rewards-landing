@@ -35,28 +35,27 @@ export function WhyJoinSection() {
           <motion.div variants={fadeInUp} className="text-center">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-6">Why Join?</h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              A developer-first funding solution that transforms traditional grants into sustainable, automated rewards
-              based on your impact.
+              Protocol Rewards isn't just financial support, it's a launchpad. Get the funding, technical support, feedback and visibility you need to transform your idea into a working product. Protocol Rewards helps NEAR builders go from prototype to pitch-ready, with incentives based on progress and impact.
             </p>
           </motion.div>
 
           <motion.div variants={stagger} className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {[
               {
-                title: "Sustainable Funding",
+                title: "Launch-Stage Rewards",
                 description:
-                  "Earn up to $10,000/month through automated, merit-based rewards that grow with your project's impact",
+                  "Get rewarded for real traction: up to $10K/month during the program. Protocol Rewards is your first step toward bigger funding and partnerships in the NEAR ecosystem.",
                 icon: Award,
               },
               {
                 title: "Expert Mentorship",
                 description:
-                  "Get direct guidance from NEAR's Founder Success Team to accelerate your project's growth and impact",
+                  "Get support from NEAR's Founder Success Team. With guidance across product, legal, business, and marketing to help your project move from MVP to market-ready.",
                 icon: Users,
               },
               {
                 title: "Supportive Community",
-                description: "Join a network of innovative developers building and scaling the future of Web3 together",
+                description: "Connect with builders, experts, and mentors across the NEAR ecosystem. You're not just building a project. You're joining a movement.",
                 icon: MessageSquare,
               },
             ].map((item) => (
