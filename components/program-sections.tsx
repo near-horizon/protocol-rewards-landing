@@ -106,11 +106,9 @@ export function FeaturedProjectsSection() {
         >
           <motion.div variants={fadeInUp} className="text-center">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-6">Featured Projects</h2>
-            <ul className="text-lg text-gray-400 max-w-2xl mx-auto list-disc list-inside space-y-1 text-left md:text-center md:list-none md:space-y-2">
-              <li>Build credibility</li>
-              <li>Show diversity of projects</li>
-              <li>Visually break up the text-heavy section</li>
-            </ul>
+            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+              Discover early-stage projects that started with Protocol Rewards and grew into startups, apps, and ecosystem contributors on NEAR.
+            </p>
           </motion.div>
 
           <motion.div 
