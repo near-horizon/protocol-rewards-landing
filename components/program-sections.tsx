@@ -2,10 +2,10 @@
 
 import { Card } from "@/components/ui/card"
 import { Brain, Users, Target, ArrowRight, Rocket, Code, GitBranch, MessageSquare, Award } from "lucide-react"
-import { XCard } from "@/components/ui/x-gradient-card"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -81,45 +81,16 @@ export function WhyJoinSection() {
 }
 
 export function FeaturedProjectsSection() {
-  const testimonials = [
+  const projects = [
     {
-      link: "https://twitter.com/zrealsafi/status/1890047924777693650",
-      authorName: "Safi",
-      authorHandle: "ZRealSafi",
-      authorImage:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Safi%20Profile%20Picture.jpg-G74ZHugDKwhEsA4MGKx8CXK4YIOOZb.jpeg",
-      content: [
-        "🔥 Big news! YieldGuard AI just secured support from the @NEARProtocol Rewards Program! 🚀",
-        "We're building the ultimate AI-powered security & analytics hub to protect DeFi users on NEAR—think smarter risk assessment, real-time wallet analysis & community-driven trust.",
-        "Got a game-changing idea? Apply for the next round of Near Rewards Program Now:",
-        "airtable.com/appFoIqAoY0iko...",
-      ],
-      isVerified: true,
-      timestamp: "9:38 AM · Feb 13, 2025",
+      href: "https://getpeerfolio.app/",
+      src: "/past-projects/peerfolio.png",
+      alt: "Peerfolio logo",
     },
     {
-      link: "https://x.com/jcarbonnell/status/1889707477886816498",
-      authorName: "Julien Carbonnell",
-      authorHandle: "jcarbonnell",
-      authorImage: "/profiles/julien-carbonnell.jpg",
-      content: [
-        "Excited to share that @partagexyz received support from the @NEARProtocol Rewards Program! 🚀",
-        "This initiative helps developers like me grow, and brings projects like 1000fans to life.",
-        "Don't miss your chance to join the next round:",
-      ],
-      isVerified: true,
-      timestamp: "3:45 PM · Feb 12, 2025",
-    },
-    {
-      link: "https://x.com/openwebeconomy/status/1922623248354750756",
-      authorName: "Charles",
-      authorHandle: "openwebeconomy",
-      authorImage: "https://wuszieebptt7hukv.public.blob.vercel-storage.com/openwebeconomy_profile.jpg",
-      content: [
-        "🧵 The founder's journey is an erratic yet invigorating rollercoaster, and infinitely better with a supportive community. Dive into our latest experience with the NEAR Protocol Rewards team. 👇 (1/8)",
-      ],
-      isVerified: true,
-      timestamp: "9:01 AM · Mai 14, 2025",
+      href: "https://pingpay.io/",
+      src: "/past-projects/pingpay.png",
+      alt: "PingPay logo",
     },
   ]
 
@@ -135,20 +106,34 @@ export function FeaturedProjectsSection() {
         >
           <motion.div variants={fadeInUp} className="text-center">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-6">Featured Projects</h2>
-            <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              Discover early-stage projects that started with Protocol Rewards and grew into startups, apps, and ecosystem contributors on NEAR.
-            </p>
+            <ul className="text-lg text-gray-400 max-w-2xl mx-auto list-disc list-inside space-y-1 text-left md:text-center md:list-none md:space-y-2">
+              <li>Build credibility</li>
+              <li>Show diversity of projects</li>
+              <li>Visually break up the text-heavy section</li>
+            </ul>
           </motion.div>
 
           <motion.div 
             variants={fadeInUp} 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 px-4 md:px-8 lg:px-12 w-full max-w-6xl mx-auto"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 px-4 md:px-8 lg:px-12 w-full max-w-4xl mx-auto justify-items-center"
           >
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="w-full flex justify-center">
-                <div className="w-full max-w-[320px]">
-                  <XCard {...testimonial} />
-                </div>
+            {projects.map((project) => (
+              <div key={project.href} className="w-full flex justify-center">
+                <Link
+                  href={project.href}
+                  target="_blank"
+                  className="group w-full max-w-[320px] rounded-2xl border border-white/10 bg-white/5 dark:bg-black/90 p-6 transition hover:border-[#9797ff]/30"
+                >
+                  <div className="flex items-center justify-center h-24">
+                    <Image
+                      src={project.src}
+                      alt={project.alt}
+                      width={240}
+                      height={80}
+                      className="object-contain w-full h-full"
+                    />
+                  </div>
+                </Link>
               </div>
             ))}
           </motion.div>
